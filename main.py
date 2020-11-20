@@ -15,7 +15,6 @@ class WindowDraw(QMainWindow):
         self.initUI()
         self.setMouseTracking(True)
         self.coord = []
-
         self.do_paint = False
         self.attr = None
 
